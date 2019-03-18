@@ -13,6 +13,8 @@
 		69D389DF224014B900756740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D389DE224014B900756740 /* Assets.xcassets */; };
 		69D389E2224014B900756740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D389E0224014B900756740 /* LaunchScreen.storyboard */; };
 		69D389ED224014B900756740 /* CodingChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D389EC224014B900756740 /* CodingChallengesTests.swift */; };
+		69D389F9224014DA00756740 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D389F8224014DA00756740 /* Challenge1.swift */; };
+		69D389FB2240154000756740 /* Challenge1Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D389FA2240154000756740 /* Challenge1Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		69D389E8224014B900756740 /* CodingChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D389EC224014B900756740 /* CodingChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengesTests.swift; sourceTree = "<group>"; };
 		69D389EE224014B900756740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D389F8224014DA00756740 /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
+		69D389FA2240154000756740 /* Challenge1Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		69D389D6224014B700756740 /* CodingChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				69D389F7224014C800756740 /* Chapter1 */,
 				69D389D7224014B700756740 /* AppDelegate.swift */,
 				69D389D9224014B700756740 /* ViewController.swift */,
 				69D389DB224014B700756740 /* Main.storyboard */,
@@ -92,8 +97,17 @@
 			children = (
 				69D389EC224014B900756740 /* CodingChallengesTests.swift */,
 				69D389EE224014B900756740 /* Info.plist */,
+				69D389FA2240154000756740 /* Challenge1Test.swift */,
 			);
 			path = CodingChallengesTests;
+			sourceTree = "<group>";
+		};
+		69D389F7224014C800756740 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				69D389F8224014DA00756740 /* Challenge1.swift */,
+			);
+			path = Chapter1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D389F9224014DA00756740 /* Challenge1.swift in Sources */,
 				69D389DA224014B700756740 /* ViewController.swift in Sources */,
 				69D389D8224014B700756740 /* AppDelegate.swift in Sources */,
 			);
@@ -207,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D389ED224014B900756740 /* CodingChallengesTests.swift in Sources */,
+				69D389FB2240154000756740 /* Challenge1Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
