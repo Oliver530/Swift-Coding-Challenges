@@ -13,14 +13,14 @@ class Challenge1 {
     // Write a function that accepts a String as its only parameter, and returns true if the string has only unique letters, taking letter case into account.
     
     func hasUniqueLetters(string: String) -> Bool {
-        var charMap = [Character:Int]()
+        var charCount = [Character:Int]()
         
         for char in string {
-            let count = charMap[char] ?? 0
+            let count = charCount[char] ?? 0
             if count > 0 {
                 return false
             }
-            charMap[char] = count + 1
+            charCount[char] = count + 1
         }
         
         return true

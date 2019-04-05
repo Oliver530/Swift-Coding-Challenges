@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69506D3322575B4E0016817A /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69506D3222575B4E0016817A /* Challenge3.swift */; };
+		69506D3522575B6B0016817A /* Challenge3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69506D3422575B6B0016817A /* Challenge3Test.swift */; };
 		69D389D8224014B700756740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D389D7224014B700756740 /* AppDelegate.swift */; };
 		69D389DA224014B700756740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D389D9224014B700756740 /* ViewController.swift */; };
 		69D389DD224014B700756740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D389DB224014B700756740 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69506D3222575B4E0016817A /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
+		69506D3422575B6B0016817A /* Challenge3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3Test.swift; sourceTree = "<group>"; };
 		69D389D4224014B700756740 /* CodingChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D389D7224014B700756740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69D389D9224014B700756740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 				69D389EC224014B900756740 /* CodingChallengesTests.swift */,
 				69D389EE224014B900756740 /* Info.plist */,
 				69D389FA2240154000756740 /* Challenge1Test.swift */,
+				69506D3422575B6B0016817A /* Challenge3Test.swift */,
 			);
 			path = CodingChallengesTests;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				69D389F8224014DA00756740 /* Challenge1.swift */,
+				69506D3222575B4E0016817A /* Challenge3.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D389F9224014DA00756740 /* Challenge1.swift in Sources */,
+				69506D3322575B4E0016817A /* Challenge3.swift in Sources */,
 				69D389DA224014B700756740 /* ViewController.swift in Sources */,
 				69D389D8224014B700756740 /* AppDelegate.swift in Sources */,
 			);
@@ -221,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69506D3522575B6B0016817A /* Challenge3Test.swift in Sources */,
 				69D389ED224014B900756740 /* CodingChallengesTests.swift in Sources */,
 				69D389FB2240154000756740 /* Challenge1Test.swift in Sources */,
 			);
